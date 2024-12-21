@@ -1,0 +1,114 @@
+<div class="navbar">
+    <div class="bar">
+        <ul>
+            <li><a href="#main">Biblio</a></li>
+            <li><a href="#team">Our Team</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+            
+            <!-- <li><button class="button" onclick="openPopup()">Sign in</button></li> -->
+        </ul>
+    </div>
+    <div class="button-sign">
+        <button routerLink="/sign-in">Sign in</button>
+        <!-- <button routerLink="/profile">Sign in</button> -->
+    </div>
+</div>
+<!-- <search-app></search-app> -->
+<div class="search-container">
+    <form class="form-container">
+        <div class="input">
+            <input class="input-search" [(ngModel)]="title" [ngModelOptions]="{standalone: true}" placeholder="Что ищем?">
+        </div>
+        <!-- <button class="button">Искать!</button> -->
+         <div class="button-link">
+            <button routerLink="/list/{{title}}">Искать!</button>
+         </div>
+    </form>
+</div>
+<div class="maininfo" id="main">
+    <div class="main-container">
+        <div class="img-container">
+            <img class="img-block"
+            src="https://img.freepik.com/free-vector/hand-drawn-illustration-world-book-day-celebration_23-2150226320.jpg?t=st=1734626234~exp=1734629834~hmac=517d1561945a349abcdfea4e99a2b79fdcaa2516013e4fefac14ba19d0916221&w=900"
+            alt="main page">
+        </div>
+        <div class="main-page">
+            <div class="info">
+                <h1>About Us</h1>
+            </div>
+            <div class="description">
+                <p>Description info</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="team" id="team">
+    <h1>Our Team</h1>
+    <div class="team-container">
+        <div class="column">
+            <div class="card">
+                <img src="https://img.freepik.com/premium-vector/man-sitting-with-crossed-legs-holding-laptop-freelance-education-work-3d-vector-people-character_365941-1214.jpg?w=900"
+                alt="Vlad" style="width:100%">
+                <div class="container">
+                    <h2>Vlad Abramov</h2>
+                    <p class="title">Backend &amp; Tester</p>
+                    <p>example1&#64;mail.com</p>
+                    <p><button class="button">Contact</button></p>
+              </div>
+            </div>
+        </div>
+        
+        <div class="column">
+            <div class="card">
+                <img src="https://img.freepik.com/free-vector/woman-thinking-with-idea_24908-81732.jpg?t=st=1734641639~exp=1734645239~hmac=9dc4420ea66429a778a45aff1e65e389b64fbbef9f45a865a112aebeaacfa32c&w=900"
+                alt="Anna" style="width:100%">
+                <div class="container">
+                    <h2>Anna Anisimova</h2>
+                    <p class="title">Product Manager &amp; Analyst</p>
+                    <p>example2&#64;mail.com</p>
+                    <p><button class="button">Contact</button></p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="column">
+            <div class="card">
+                <img src="https://img.freepik.com/premium-vector/pensive-female-thinking-face-with-alight-bulb-flat-character_744040-34.jpg?w=900" 
+                alt="Sveta" style="width:100%">
+                <div class="container">
+                    <h2>Sveta Annenkova</h2>
+                    <p class="title">Team Leader &amp; Backend</p>
+                    <p>example3&#64;mail.com</p>
+                    <p><button class="button">Contact</button></p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="column">
+            <div class="card">
+                <img src="https://img.freepik.com/free-psd/3d-nft-icon-developer-male-illustration_629802-6.jpg?t=st=1734641885~exp=1734645485~hmac=b4922c241b73c72bd0fc4bbbadf5a76a552c93f5ec971fdd7ecb9fe98d6049fe&w=900"
+                alt="Sergey" style="width:100%">
+                <div class="container">
+                    <h2>Sergey Gafurov</h2>
+                    <p class="title">Analyst &amp; Project Manager</p>
+                    <p>example4&#64;mail.com</p>
+                    <p><button class="button">Contact</button></p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="column">
+            <div class="card">
+                <img src="https://img.freepik.com/free-vector/woman-with-bulb_24908-81569.jpg?t=st=1734641684~exp=1734645284~hmac=422ceaa00297d881809cb377196610041f35be9aca2024db5b468b1c213b53c6&w=900"
+                alt="Mary" style="width:100%">
+                <div class="container">
+                    <h2>Mary Dubovik</h2>
+                    <p class="title">Designer &amp; Frontend</p>
+                    <p>example5&#64;mail.com</p>
+                    <p><button class="button">Contact</button></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

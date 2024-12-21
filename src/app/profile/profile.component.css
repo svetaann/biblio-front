@@ -1,0 +1,166 @@
+*{
+    font-family: Garamond;
+    background-color: rgb(234, 227, 227);
+}
+
+.navbar {
+    height: 80px;
+    padding-top: 30px;
+    background-color: rgb(92, 102, 152);
+    display: flex;
+    justify-content: space-around;
+    border: 5px solid  rgb(81, 90, 134);
+}
+
+.bar {
+    width: 75%;
+    background-color: rgb(92, 102, 152);
+}
+
+.button-sign {
+    /* width: 20%; */
+    background-color: rgb(92, 102, 152);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-sign button {
+    background-color: rgb(92, 102, 152);
+    border: 5px solid  rgb(81, 90, 134);
+    color:  rgb(234, 227, 227);
+    cursor: pointer;
+}
+
+.button-sign button:hover {
+    background-color: #555;
+}
+
+.navbar ul {
+    width: 90;
+    margin: 0;
+    padding: 0;
+    padding-top: 29px;
+    background-color: rgb(92, 102, 152);
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar li {
+    display: inline-block;
+    background-color: rgb(92, 102, 152);
+}
+
+.navbar a {
+    padding: 0;
+    color: rgb(234, 227, 227);
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgb(92, 102, 152);
+}
+
+.profile-page {
+    padding-top: 40px;
+    background-color: rgb(234, 227, 227);
+    /* border: 5px solid black; */
+}
+
+.profile-container {
+    background-color: rgb(234, 227, 227);
+    display: flex;
+    justify-content: space-around;
+    /* border: 5px solid black; */
+}
+
+.profile-info {
+    width: 500px;
+    /* width: 50%; */
+    height: 500px;
+    /* margin: 10px; */
+    padding: 45px;
+    /* border: 5px solid black; */
+}
+
+.history {
+    width: 250px;
+    /* padding: 25px 75px 75px 25px; */
+    padding: 45px 45px 95px 45px;
+    /* margin: 10px; */
+    font-size: large;
+    /* border: 5px solid black; */
+}
+
+.history h2 {
+    text-align: center;
+}
+
+.data-container h1 {
+    text-align: center;
+    color: rgb(92, 102, 152);
+    /* padding: 10%; */
+    padding: 0;
+    font-weight: bold;
+}
+
+.data-container p {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.fav-container {
+    margin: 0;
+    text-align: center;
+    height: 70%;
+    /* width: 70%; */
+    /* border: 5px solid  rgb(92, 102, 152); */
+    /* font-style: italic; */
+}
+
+.fav-container p {
+    margin: 0;
+    /* font-size: 1.4rem; */
+    padding: 10%;
+    /* font-weight: bold; */
+    /* height: 60px; */
+}
+
+.row {
+    /* width: 20vh;
+    height: 40vh; */
+    margin: 0;
+    /* border: 5px solid black; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.book {
+    width: 20%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.book img {
+    width: 70%;
+    /* height: 70%; */
+    display: block;
+    margin-top: 20px; 
+    margin-left: auto; 
+    margin-right: auto
+    /* height: 40vh; */
+}
+
+.book-info {
+    /* display:grid;
+    margin-left: auto; 
+    margin-right: auto */
+    /* padding-left: 20px; */
+    display: block;
+    /* margin-right: 20px; */
+}
+
+.book-info h3, h4, p {
+    /* margin: 0; */
+    text-align: center;
+}

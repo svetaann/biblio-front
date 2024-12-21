@@ -1,0 +1,90 @@
+.book-container {
+    padding: 100px;
+    height: 70vh;
+    /* border: 5px solid  black; */
+    display: flex;
+    justify-content: space-around;
+}
+.book-card {
+    width: 40%;
+    /* margin-bottom: 16px; */
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.book-card img {
+    /* height: 90%;
+    border: 5px solid  rgb(81, 90, 134); */
+    /* width: 70%; */
+    height: 70%;
+    display: block;
+    margin-top: 20px; 
+    margin-left: auto; 
+    margin-right: auto
+}
+
+.book-int {
+    margin-top: 15%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.take-but {
+    width: 40%;
+}
+
+.like {
+    width: 10%;
+}
+
+.book-info {
+    width: 50%;
+    text-align: center;
+    padding-top: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.reviews-container {
+    padding: 100px;
+    margin: 0;
+}
+
+.rew-int {
+    /* width: 40%; */
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rew-info {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rew-item {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* padding-top: 20px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.rew-header {
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.review {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rew-body p {
+    margin: 0;
+    padding: 20px 30px;
+}

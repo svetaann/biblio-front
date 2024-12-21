@@ -1,0 +1,101 @@
+input.ng-touched.ng-invalid {border:solid red 2px;}
+
+input.ng-touched.ng-valid {border:solid green 2px;}
+
+*{
+    font-family: Garamond;
+    background-color: rgb(234, 227, 227);
+}
+
+.sign-up {
+    text-decoration: none;
+    /* text-align: center; */
+    margin: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    height: 80px;
+    padding-top: 30px;
+    background-color: rgb(92, 102, 152);
+    display: flex;
+    justify-content: space-around;
+    border: 5px solid  rgb(81, 90, 134);
+
+}
+
+.bar {
+    width: 75%;
+    background-color: rgb(92, 102, 152);
+}
+
+.navbar ul {
+    width: 90;
+    margin: 0;
+    padding: 0;
+    padding-top: 29px;
+    background-color: rgb(92, 102, 152);
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar li {
+    display: inline-block;
+    /* text-align: left; */
+    /* justify-content: space-around; */
+    background-color: rgb(92, 102, 152);
+}
+
+.navbar a {
+    padding: 0;
+    color: rgb(234, 227, 227);
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgb(92, 102, 152);
+}
+
+.sign-in {
+    height: 60vh;
+    margin: 0;
+    padding: 45px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* border: 5px solid black; */
+}
+
+.sign-in p {
+    margin: 0;
+    padding: 0;
+}
+
+.sign-form {
+    margin: 0;
+    padding: 90px 270px 20px 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 5px solid black; */
+}
+
+.sign-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 5px solid black; */
+}
+
+.sign-in button {
+    background-color: rgb(92, 102, 152);
+    border: 5px solid  rgb(81, 90, 134);
+    border-radius: 30px;
+    color:  rgb(234, 227, 227);
+    cursor: pointer;
+}
+
+.sign-sign button:hover {
+    background-color: #555;
+}
+

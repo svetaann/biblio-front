@@ -1,0 +1,42 @@
+<div class="navbar">
+    <div class="bar">
+        <ul>
+            <li><a href="#main">Biblio</a></li>
+            <li><a href="#team">Our Team</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+            
+            <!-- <li><button class="button" onclick="openPopup()">Sign in</button></li> -->
+        </ul>
+    </div>
+    <div class="button-sign">
+        <button routerLink="/profile">Sign in</button>
+    </div>
+</div>
+<!-- <search-app></search-app> -->
+<div class="search-container">
+    <form class="form-container">
+        <input type="text" [(ngModel)]="title" [ngModelOptions]="{standalone: true}" placeholder="Что ищем?">
+        <!-- <button class="button">Искать!</button> -->
+        <button (click)="getBooks(title); " routerLink="/list">Искать!</button>
+        <!-- <div *ngFor="let book of books">
+            <a href=""></a>
+        </div> -->
+
+    </form>
+</div>
+<!-- {{getBooks(title)}} -->
+<div class="list-container">
+    <div class="row">
+        <div class="book" *ngFor="let book of books" routerLink="/book/{{book.id}}">
+            <img src={{book.url}} alt="">
+            <div class="book-info">
+                <h3>{{book.title}}</h3>
+                <p>{{book.author}}</p>
+                <h4>{{book.rating}}</h4>
+            </div>
+        </div>
+    <div class="filter">
+
+    </div>
+
+</div>
